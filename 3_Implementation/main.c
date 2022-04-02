@@ -5,8 +5,7 @@ int main()
     fclose(p);
     int player=1;
     int choice,score=-1;
-    char symbol,re;
-    char start,dec;
+    char symbol;
     int s;
     rules();
     printf("\n\nType 1 to start the game:-\nType 2 to view leader board:-\n");
@@ -16,10 +15,10 @@ int main()
     read:
         p=fopen("score.txt","a+");
     printf("\nEnter name of player1: ");
-    scanf("%s",player1);
+    scanf("%40s",player1);
     fprintf(p,"\n%s",player1);
     printf("Enter name of player2: ");
-    scanf("%s",player2);
+    scanf("%40s",player2);
     fprintf(p,"\t%s",player2);
     fclose(p);
     if(!strcmp(player1,player2))
