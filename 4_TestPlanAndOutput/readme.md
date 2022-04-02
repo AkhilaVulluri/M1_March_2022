@@ -13,8 +13,8 @@
                                                  Game Draws
 ![image](https://user-images.githubusercontent.com/101192229/161370762-7bd40cb4-7075-4956-b861-88a7c285fd1f.png)
 
-                                                LeaderBoard
-![image](https://user-images.githubusercontent.com/101192229/161370233-86a834fe-bec9-4c1a-ba1d-7bf2ed261be6.png)
-
                                                Wrong Selection
 ![image](https://user-images.githubusercontent.com/101192229/161370266-083098d9-2f00-405c-a6e6-5e0d2209b393.png)
+
+                                                  LeaderBoard
+![image](https://user-images.githubusercontent.com/101192229/161370233-86a834fe-bec9-4c1a-ba1d-7bf2ed261be6.png)
