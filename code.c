@@ -96,7 +96,6 @@ int main()
     if(s==2)
     {
         int cho;
-        system("cls");
         printf("\n\n");
         printf("\tLEADERBOARD\n\n");
         char c;
@@ -146,8 +145,6 @@ int win()
 void board()
 {
     int i;
-
-    system("cls");
     printf("\tTic-Tac-Toe\n\n");
         printf("\n\n");
         printf("%s:- (%c)\n%s:-  (%c)\n\n\n",player1,x,player2,o);
