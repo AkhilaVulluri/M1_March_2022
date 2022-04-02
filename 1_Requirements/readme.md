@@ -92,3 +92,15 @@ By answering the 5 W and 1 H questions, you can achieve everything from solving 
 Whether you’re creating a website or writing a post, use these questions as a checklist for guiding your decisions.
 
 You will be able to accelerate your workflow, getting rid of holdups in the process.
+
+## Best Methods To Be Followed
+
+When playing first, claim a corner spot instead of the center spot.
+
+When playing second, claim the center segment if the first player did not.
+
+When playing second, claim a corner spot if the first player claimed the center segment.
+
+Always make moves based on strategy.
+
+Most moves will either block, win, or set up for a win on the next turn.
