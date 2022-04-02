@@ -1,8 +1,5 @@
 void board()
 {
-    int i;
-
-    system("cls");
     printf("\tTic-Tac-Toe\n\n");
         printf("\n\n");
         printf("%s:- (%c)\n%s:-  (%c)\n\n\n",player1,x,player2,o);
