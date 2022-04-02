@@ -57,7 +57,7 @@ Tic-Tac-Toe is a long beloved classic pen and paper or board game for two player
 
 Tic Tac Toe is known by a few other names around the world. The most common of these is "Noughts and Crosses" and it is sometimes simply referred to as the "XO game."
 
-# SWOT ANALYSIS
+## SWOT ANALYSIS
 ![SWOT ANALYSIS](https://user-images.githubusercontent.com/89633248/132447836-b32332ec-90fd-48d3-b5f5-b7e09317750a.png)
 
 **THE FIVE W'S**
