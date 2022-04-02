@@ -8,6 +8,7 @@ void rules();
 int win();
 int main()
 {
+	// code to take the input values before starting the game
     FILE *p;
     p=fopen("score.txt","a+");
     fclose(p);
@@ -48,6 +49,7 @@ int main()
             printf("%s Type any digit from 1-9 to fill your response:- ",player2);
         scanf("%d",&choice);
         symbol=((player==1)?x:o);
+	    // code to check the vacant positions in the board
         if(choice==1 && Board[0]=='1')
             Board[0]=symbol;
         else if(choice==2 && Board[1]=='2')
@@ -92,6 +94,7 @@ int main()
         printf("\n\nGame Draws!\n\n");fprintf(p,"\t%s","DRAW");
         getch();
     }
+	// code to check the leaderboard positions
     if(s==2)
     {
         int cho;
@@ -119,6 +122,7 @@ int main()
 }
 int win()
 {
+	// code to check all the possible states
     if((Board[0]==Board[1] && Board[1]==Board[2])|| (Board[3]==Board[4] && Board[4]==Board[5]) || (Board[6]==Board[7] && Board[7]==Board[8]) || (Board[0]==Board[3] && Board[3]==Board[6]) || (Board[1]==Board[4] && Board[4]==Board[7]) || (Board[2]==Board[5] && Board[5]==Board[8]) || (Board[0]==Board[4] && Board[4]==Board[8]) || (Board[2]==Board[4] && Board[4]==Board[6]))
         return 1;
     else if(Board[0]!='1' && Board[1]!='2' && Board[2]!='3' && Board[3]!='4' && Board[4]!='5' && Board[5]!='6' && Board[6]!='7' && Board[7]!='8' && Board[8]!='9')
@@ -129,6 +133,8 @@ int win()
 
 void board()
 {
+	
+	// code to design the board
     printf("\tTic-Tac-Toe\n\n");
         printf("\n\n");
         printf("%s:- (%c)\n%s:-  (%c)\n\n\n",player1,x,player2,o);
@@ -154,6 +160,7 @@ void rules()
 }
 int decision()
 {
+	// code where initial decisions are made of choosing the symbol
     char dec;
 	deci:
         printf("\n\nPlayer1 %s choose the X or 0:",player1);
