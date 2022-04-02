@@ -10,6 +10,9 @@
                                                 Player2 Wins
 ![image](https://user-images.githubusercontent.com/101192229/161370209-06fd0dd5-035f-450d-8088-7e6c2bfaefc4.png)
 
+                                                 Game Draws
+![image](https://user-images.githubusercontent.com/101192229/161370762-7bd40cb4-7075-4956-b861-88a7c285fd1f.png)
+
                                                 LeaderBoard
 ![image](https://user-images.githubusercontent.com/101192229/161370233-86a834fe-bec9-4c1a-ba1d-7bf2ed261be6.png)
 
