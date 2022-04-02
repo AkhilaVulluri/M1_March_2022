@@ -21,12 +21,11 @@ int main()
     scanf("%d",&s);
     if(s==1)
     {
-    read:
         p=fopen("score.txt","a+");
-    printf("\nEnter name of player1: ");
+    printf("\nEnter name of player1:");
     scanf("%s",player1);
     fprintf(p,"\n%s",player1);
-    printf("Enter name of player2: ");
+    printf("Enter name of player2:");
     scanf("%s",player2);
     fprintf(p,"\t%s",player2);
     fclose(p);
