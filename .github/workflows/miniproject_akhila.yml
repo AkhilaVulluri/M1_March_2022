@@ -21,6 +21,7 @@ int main()
     scanf("%d",&s);
     if(s==1)
     {
+    
         p=fopen("score.txt","a+");
     printf("\nEnter name of player1:");
     scanf("%s",player1);
@@ -168,10 +169,11 @@ void rules()
     printf("\n\nEnjoy the game!\n\n");
 
 }
+
 int decision()
 {
     char dec;
-        deci:
+        
         printf("\n\nPlayer1 %s choose the X or 0:",player1);
         dec=getchar();
         scanf("%c",&dec);
@@ -189,7 +191,6 @@ int decision()
             else
             {
                 printf("Please enter either X or 0 only \n\n");
-                goto deci;
             }
         }
 }
