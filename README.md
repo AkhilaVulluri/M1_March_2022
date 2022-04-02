@@ -3,3 +3,4 @@ Mini_Project
 Badges
 
 [![Analysis](https://github.com/AkhilaVulluri/M1_March_2022/actions/workflows/analysis.yml/badge.svg)](https://github.com/AkhilaVulluri/M1_March_2022/actions/workflows/analysis.yml)
+https://app.codacy.com/gh/AkhilaVulluri/M1_March_2022/dashboard
