@@ -1,6 +1,6 @@
 void rules()
 {
-    char link;
+    
     printf("\tTic-Tac-Toe\n\n");
     printf("Rules:-\n");
     printf("\n1:Each player will be entering the number to put respective X or O in the desired position");
