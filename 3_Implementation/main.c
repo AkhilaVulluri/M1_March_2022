@@ -12,7 +12,7 @@ int main()
     scanf("%d",&s);
     if(s==1)
     {
-    read:
+    read: 
         p=fopen("score.txt","a+");
     printf("\nEnter name of player1: ");
     scanf("%40s",player1);
